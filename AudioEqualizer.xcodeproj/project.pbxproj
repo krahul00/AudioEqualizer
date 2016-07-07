@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E95A19E41D2EBB2700E81EAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A19E31D2EBB2700E81EAA /* AppDelegate.swift */; };
+		E95A19E61D2EBB2700E81EAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A19E51D2EBB2700E81EAA /* ViewController.swift */; };
+		E95A19E91D2EBB2700E81EAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95A19E71D2EBB2700E81EAA /* Main.storyboard */; };
+		E95A19EB1D2EBB2700E81EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95A19EA1D2EBB2700E81EAA /* Assets.xcassets */; };
+		E95A19EE1D2EBB2700E81EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95A19EC1D2EBB2700E81EAA /* LaunchScreen.storyboard */; };
+		E95A19F91D2EBB2700E81EAA /* AudioEqualizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A19F81D2EBB2700E81EAA /* AudioEqualizerTests.swift */; };
+		E95A1A041D2EBB2700E81EAA /* AudioEqualizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A1A031D2EBB2700E81EAA /* AudioEqualizerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E95A19F51D2EBB2700E81EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E95A19D81D2EBB2700E81EAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E95A19DF1D2EBB2700E81EAA;
+			remoteInfo = AudioEqualizer;
+		};
+		E95A1A001D2EBB2700E81EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E95A19D81D2EBB2700E81EAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E95A19DF1D2EBB2700E81EAA;
+			remoteInfo = AudioEqualizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E95A19E01D2EBB2700E81EAA /* AudioEqualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioEqualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95A19E31D2EBB2700E81EAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E95A19E51D2EBB2700E81EAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E95A19E81D2EBB2700E81EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E95A19EA1D2EBB2700E81EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E95A19ED1D2EBB2700E81EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E95A19EF1D2EBB2700E81EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95A19F41D2EBB2700E81EAA /* AudioEqualizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioEqualizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95A19F81D2EBB2700E81EAA /* AudioEqualizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEqualizerTests.swift; sourceTree = "<group>"; };
+		E95A19FA1D2EBB2700E81EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95A19FF1D2EBB2700E81EAA /* AudioEqualizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioEqualizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95A1A031D2EBB2700E81EAA /* AudioEqualizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEqualizerUITests.swift; sourceTree = "<group>"; };
+		E95A1A051D2EBB2700E81EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E95A19DD1D2EBB2700E81EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95A19F11D2EBB2700E81EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95A19FC1D2EBB2700E81EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E95A19D71D2EBB2700E81EAA = {
+			isa = PBXGroup;
+			children = (
+				E95A19E21D2EBB2700E81EAA /* AudioEqualizer */,
+				E95A19F71D2EBB2700E81EAA /* AudioEqualizerTests */,
+				E95A1A021D2EBB2700E81EAA /* AudioEqualizerUITests */,
+				E95A19E11D2EBB2700E81EAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E95A19E11D2EBB2700E81EAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E95A19E01D2EBB2700E81EAA /* AudioEqualizer.app */,
+				E95A19F41D2EBB2700E81EAA /* AudioEqualizerTests.xctest */,
+				E95A19FF1D2EBB2700E81EAA /* AudioEqualizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E95A19E21D2EBB2700E81EAA /* AudioEqualizer */ = {
+			isa = PBXGroup;
+			children = (
+				E95A19E31D2EBB2700E81EAA /* AppDelegate.swift */,
+				E95A19E51D2EBB2700E81EAA /* ViewController.swift */,
+				E95A19E71D2EBB2700E81EAA /* Main.storyboard */,
+				E95A19EA1D2EBB2700E81EAA /* Assets.xcassets */,
+				E95A19EC1D2EBB2700E81EAA /* LaunchScreen.storyboard */,
+				E95A19EF1D2EBB2700E81EAA /* Info.plist */,
+			);
+			path = AudioEqualizer;
+			sourceTree = "<group>";
+		};
+		E95A19F71D2EBB2700E81EAA /* AudioEqualizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E95A19F81D2EBB2700E81EAA /* AudioEqualizerTests.swift */,
+				E95A19FA1D2EBB2700E81EAA /* Info.plist */,
+			);
+			path = AudioEqualizerTests;
+			sourceTree = "<group>";
+		};
+		E95A1A021D2EBB2700E81EAA /* AudioEqualizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E95A1A031D2EBB2700E81EAA /* AudioEqualizerUITests.swift */,
+				E95A1A051D2EBB2700E81EAA /* Info.plist */,
+			);
+			path = AudioEqualizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E95A19DF1D2EBB2700E81EAA /* AudioEqualizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95A1A081D2EBB2700E81EAA /* Build configuration list for PBXNativeTarget "AudioEqualizer" */;
+			buildPhases = (
+				E95A19DC1D2EBB2700E81EAA /* Sources */,
+				E95A19DD1D2EBB2700E81EAA /* Frameworks */,
+				E95A19DE1D2EBB2700E81EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioEqualizer;
+			productName = AudioEqualizer;
+			productReference = E95A19E01D2EBB2700E81EAA /* AudioEqualizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E95A19F31D2EBB2700E81EAA /* AudioEqualizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95A1A0B1D2EBB2700E81EAA /* Build configuration list for PBXNativeTarget "AudioEqualizerTests" */;
+			buildPhases = (
+				E95A19F01D2EBB2700E81EAA /* Sources */,
+				E95A19F11D2EBB2700E81EAA /* Frameworks */,
+				E95A19F21D2EBB2700E81EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E95A19F61D2EBB2700E81EAA /* PBXTargetDependency */,
+			);
+			name = AudioEqualizerTests;
+			productName = AudioEqualizerTests;
+			productReference = E95A19F41D2EBB2700E81EAA /* AudioEqualizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E95A19FE1D2EBB2700E81EAA /* AudioEqualizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95A1A0E1D2EBB2700E81EAA /* Build configuration list for PBXNativeTarget "AudioEqualizerUITests" */;
+			buildPhases = (
+				E95A19FB1D2EBB2700E81EAA /* Sources */,
+				E95A19FC1D2EBB2700E81EAA /* Frameworks */,
+				E95A19FD1D2EBB2700E81EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E95A1A011D2EBB2700E81EAA /* PBXTargetDependency */,
+			);
+			name = AudioEqualizerUITests;
+			productName = AudioEqualizerUITests;
+			productReference = E95A19FF1D2EBB2700E81EAA /* AudioEqualizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E95A19D81D2EBB2700E81EAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = BigNerdRanch;
+				TargetAttributes = {
+					E95A19DF1D2EBB2700E81EAA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E95A19F31D2EBB2700E81EAA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E95A19DF1D2EBB2700E81EAA;
+					};
+					E95A19FE1D2EBB2700E81EAA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E95A19DF1D2EBB2700E81EAA;
+					};
+				};
+			};
+			buildConfigurationList = E95A19DB1D2EBB2700E81EAA /* Build configuration list for PBXProject "AudioEqualizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E95A19D71D2EBB2700E81EAA;
+			productRefGroup = E95A19E11D2EBB2700E81EAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E95A19DF1D2EBB2700E81EAA /* AudioEqualizer */,
+				E95A19F31D2EBB2700E81EAA /* AudioEqualizerTests */,
+				E95A19FE1D2EBB2700E81EAA /* AudioEqualizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E95A19DE1D2EBB2700E81EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95A19EE1D2EBB2700E81EAA /* LaunchScreen.storyboard in Resources */,
+				E95A19EB1D2EBB2700E81EAA /* Assets.xcassets in Resources */,
+				E95A19E91D2EBB2700E81EAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95A19F21D2EBB2700E81EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95A19FD1D2EBB2700E81EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E95A19DC1D2EBB2700E81EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95A19E61D2EBB2700E81EAA /* ViewController.swift in Sources */,
+				E95A19E41D2EBB2700E81EAA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95A19F01D2EBB2700E81EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95A19F91D2EBB2700E81EAA /* AudioEqualizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95A19FB1D2EBB2700E81EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95A1A041D2EBB2700E81EAA /* AudioEqualizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E95A19F61D2EBB2700E81EAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E95A19DF1D2EBB2700E81EAA /* AudioEqualizer */;
+			targetProxy = E95A19F51D2EBB2700E81EAA /* PBXContainerItemProxy */;
+		};
+		E95A1A011D2EBB2700E81EAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E95A19DF1D2EBB2700E81EAA /* AudioEqualizer */;
+			targetProxy = E95A1A001D2EBB2700E81EAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E95A19E71D2EBB2700E81EAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E95A19E81D2EBB2700E81EAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E95A19EC1D2EBB2700E81EAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E95A19ED1D2EBB2700E81EAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E95A1A061D2EBB2700E81EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E95A1A071D2EBB2700E81EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E95A1A091D2EBB2700E81EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AudioEqualizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rahul.AudioEqualizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E95A1A0A1D2EBB2700E81EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AudioEqualizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rahul.AudioEqualizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E95A1A0C1D2EBB2700E81EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AudioEqualizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rahul.AudioEqualizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioEqualizer.app/AudioEqualizer";
+			};
+			name = Debug;
+		};
+		E95A1A0D1D2EBB2700E81EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AudioEqualizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rahul.AudioEqualizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioEqualizer.app/AudioEqualizer";
+			};
+			name = Release;
+		};
+		E95A1A0F1D2EBB2700E81EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AudioEqualizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rahul.AudioEqualizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AudioEqualizer;
+			};
+			name = Debug;
+		};
+		E95A1A101D2EBB2700E81EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AudioEqualizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rahul.AudioEqualizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AudioEqualizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E95A19DB1D2EBB2700E81EAA /* Build configuration list for PBXProject "AudioEqualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95A1A061D2EBB2700E81EAA /* Debug */,
+				E95A1A071D2EBB2700E81EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95A1A081D2EBB2700E81EAA /* Build configuration list for PBXNativeTarget "AudioEqualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95A1A091D2EBB2700E81EAA /* Debug */,
+				E95A1A0A1D2EBB2700E81EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E95A1A0B1D2EBB2700E81EAA /* Build configuration list for PBXNativeTarget "AudioEqualizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95A1A0C1D2EBB2700E81EAA /* Debug */,
+				E95A1A0D1D2EBB2700E81EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E95A1A0E1D2EBB2700E81EAA /* Build configuration list for PBXNativeTarget "AudioEqualizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95A1A0F1D2EBB2700E81EAA /* Debug */,
+				E95A1A101D2EBB2700E81EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E95A19D81D2EBB2700E81EAA /* Project object */;
+}
